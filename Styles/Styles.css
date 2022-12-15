@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: lightblue;}
+li {
+    font-size: 14px;
+    font-style: italic;  
+    font-weight: normal;}
+a {color: blue;
+text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+a:visited {
+    color: navy;
+}
+.ResumeListHeading {
+    font-weight: bold;
+    font-style: normal;}
+.Underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+.homebg {
+    background-image: url('../Images/Dressel_Background.webp');
+    background-position: top left;
+    /* background-repeat: ; */
+}
+.box1 {
+border-width: 1px;
+border-style: solid;
+border-color: gray;
+
+/*border: 1px solid gray;*/
+}
+.box2 {
+padding: 5px;
+} /* Wouldn't normally use the word 'box'*/
+.box3{
+margin: 50px;
+}
